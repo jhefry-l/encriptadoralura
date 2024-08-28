@@ -1,0 +1,131 @@
+:root{
+    --color1:#0A3871;
+}
+
+* {
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+body {
+    
+    height: 980px;
+}
+
+main {
+    display: flex;
+    width: 1250px;
+    height: 800px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.parte {
+    width: 800px;
+    height: 400px;
+}
+
+.parte_ {
+    height: 690px;
+}
+
+
+.text-area {
+    width: 684px;
+    border: none;
+    color: #    ;
+    margin-top: 30px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder { color: var(--color1) }
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje {
+    background: white;
+    background-image: url("Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    resize: none;
+    border-radius: 24px;
+    color: var(color1) ;
+    width: 400px;
+    height: 680px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: var(--color1);
+    border: 1px solid var(--color1);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid var(--color1);
+    border-radius: 24px;
+    margin-left: 30px;
+    color: var(--color1);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-div {
+    margin-top: -84px;
+    margin-left: 5px;
+}
+
+.btn-copiar {
+    border: 1px solid var(--color1);
+    border-radius: 24px;
+    color: var(--color1);
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-top: 0px;
+    margin-left: 135px;
+}
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+}
+
+.footer {
+    max-width: 100%;
+    padding: 5px 0;
+}
+
+.F-footer {
+    display: flex;
+    justify-content: center;
+}
